@@ -1377,6 +1377,16 @@
     webpack-node-externals "^3.0.0"
     webpackbar "^4.0.0"
 
+"@nuxtjs/color-mode@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-3.0.1.tgz#e4362f9bdbfd348a44a309bc4d5f32bb7c54415c"
+  integrity sha512-2FGlUSV6G6MtLAJcXOxodMR789nxxhwNZ76sqC4JtCgEmxcAT6PeHkR7TPSms/++r0gAE7BiPA4l0pR/7O4AIg==
+  dependencies:
+    "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
+    defu "^5.0.0"
+    lodash.template "^4.5.0"
+    pathe "^0.2.0"
+
 "@nuxtjs/tailwindcss@^5.0.0-4":
   version "5.0.0-4"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.0.0-4.tgz#b6778267028b0f344325e7c1d7b7425d7dc50a74"

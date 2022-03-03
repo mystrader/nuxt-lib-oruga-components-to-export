@@ -30,7 +30,12 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: [
+    // Doc: https://github.com/nuxt-community/color-mode-module
+    // '@nuxtjs/color-mode',
+    // Doc: https://github.com/nuxt-community/tailwindcss-module
+    '@nuxtjs/tailwindcss',
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -42,5 +47,5 @@ export default {
   build: {},
   oruga: {
     includeCss: false,
-  },
+  }
 }
